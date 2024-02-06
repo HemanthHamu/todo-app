@@ -139,5 +139,7 @@ form button:active{
         position: fixed;
         bottom: 30px;
         left: 0;
+        max-width: 100%;
+        width: 100%;
     }
 }
