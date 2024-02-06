@@ -135,7 +135,7 @@ form button:active{
     .footer-container{
         font-size: 16px;
         position: fixed;
-        bottom: 50px;
+        bottom: 30px;
         left: 0;
     }
 }
