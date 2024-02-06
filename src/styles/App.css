@@ -133,9 +133,9 @@ form button:active{
 }
 @media (max-width:768px) {
     .footer-container{
-        font-size: 20px;
+        font-size: 16px;
         position: fixed;
-        bottom: 0;
+        bottom: 50px;
         left: 0;
     }
 }
