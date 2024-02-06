@@ -14,7 +14,7 @@ export default function Form() {
             return alert("Please enter something and add....")
         }
         setTodos([...todos, todo]);
-        setTodo({...todo,id:todo.id+1});
+        setTodo({...todo,id:todo.id+1,name:""});
         setTotalTodos(totalTodos+1)
     }
     function updateCompletedTodos(count) {
