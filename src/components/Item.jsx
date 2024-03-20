@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import '../styles/item.css'
 export default function Item({
   item,
   todo,

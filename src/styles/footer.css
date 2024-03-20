@@ -1,0 +1,20 @@
+.footer-container{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #454343;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+    font-size: 25px;
+}
+.footer-container p {
+    display: inline;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    margin-left: 10px;
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/form.css'
 import Header from './Header';
 import Item from './Item';
 import Footer from './Footer';

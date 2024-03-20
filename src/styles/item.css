@@ -1,0 +1,63 @@
+.item-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color:#242424;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 0 2px rgb(239, 239, 194);
+    position: relative;
+}
+.item-component p{
+    font-size: 24px;
+}
+.fa-check{
+    color: green;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.checked{
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: green;
+}
+.check-icon-container{
+    position: absolute; 
+    right: 50%;
+    cursor: pointer;
+}
+.edit-icon{
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+    font-size: 25px;
+}
+.item-component button{
+    padding: 10px;
+    width: 85px;
+    border-radius: 8px;
+    background-color: #f44b3b;
+    cursor: pointer;
+    box-shadow:none;
+}
+.item-component button:hover{
+    background-color: #c14034;
+}
+.item-component button:active{
+    background-color: #fff;
+    color: #000;
+}
+.completed{
+    text-decoration: line-through;
+}
+.edited-input{
+    padding: 20px;
+    background-color: #242424;
+    color: #fff;
+    box-shadow: 0 0 2px #fff;
+    font-size: 24px;
+}
